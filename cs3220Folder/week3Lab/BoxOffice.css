@@ -1,0 +1,29 @@
+/* removes underline from links */
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+/* used for the first row that holds <th> tags */
+tr:first-child{
+    border-bottom: 2px solid black;
+}
+
+/* used to create dobule lines under each row */
+tr {
+  border-bottom: 1px solid black;
+}
+
+#outerRow {
+    border-bottom: 5px double black;
+}

@@ -1,0 +1,43 @@
+/*
+    Name: Jonathan Diaz
+    Class: CS 3220-01/02
+    Description: 
+*/
+.firstMenuBar{
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 12px;
+}
+
+.separator{
+    color:gold;
+}
+
+.logo{
+    font-size:35px;
+    display: flex;
+    align-items: center;
+}
+
+.secondMenuBar{
+    background-color: gold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.headlineTitles{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.paragraphText{
+    text-indent: 15px;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}

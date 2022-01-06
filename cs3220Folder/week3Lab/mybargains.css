@@ -1,0 +1,116 @@
+/* removes underline from links */
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+
+/* format the header and links of the page*/
+
+#fixedHeader {
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 1)
+}
+
+#links {
+    padding: 10px 0;
+    border: 1px solid black;
+}
+
+
+/* everything below is for styling the main content*/
+
+#mainContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#firstAd {
+    background-color: yellow;
+    min-height: 200px;
+    height: 280px;
+}
+
+#secondAd {
+    background-color: yellow;
+    min-height: 200px;
+    height: 280px;
+}
+
+#mainContentTitle {
+    border-bottom: 2px solid black;
+}
+
+#latestDeals {
+    width: 66%;
+    margin-right: 50px;
+}
+
+#trendingDeals {
+    width: 33%;
+}
+
+#firstLeftDiv {
+    border: 1px solid black;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+#secondLeftDiv {
+    border: 1px solid black;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+#thirdLeftDiv {
+    border: 1px solid black;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+#firstRightDiv {
+    border: 1px solid black;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+#secondRightDiv {
+    border: 1px solid black;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+#thirdRightDiv {
+    border: 1px solid black;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+
+/* moves the text of the footer to center*/
+
+footer {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+
+/* the bottom simply moves the deals text to the left */
+
+h2 {
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 10px;
+    font-size: 20px;
+}
